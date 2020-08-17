@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:text="id:"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/database_id"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:text="name:"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/database_name"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:text="password:"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/database_password"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

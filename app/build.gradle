@@ -30,6 +30,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
+    //recyclerview
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
     //room database
     //https://developer.android.google.cn/training/data-storage/room
     def room_version = "2.2.5"

@@ -59,18 +59,14 @@
             android:layout_height="wrap_content"
             android:text="删" />
         <Button
-            android:id="@+id/button_database_update"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="改" />
-        <Button
             android:id="@+id/button_database_select"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="查" />
 
-        <ListView
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/database_recycler"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
