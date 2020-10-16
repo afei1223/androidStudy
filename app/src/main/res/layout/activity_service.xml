@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="this is service study"
+        app:layout_constraintTop_toBottomOf="@+id/space"
+        tools:ignore="MissingConstraints"/>
+
+    <Space
+        android:id="@+id/space1"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/intentservce_study_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始IntentService"
+        app:layout_constraintTop_toBottomOf="@+id/space1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/intentservce_study_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="结束IntentService"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@+id/intentservce_study_start"/>
+
+    <Button
+        android:id="@+id/intentservce_study_bind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定服务"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@+id/intentservce_study_stop"/>
+    <Button
+        android:id="@+id/intentservce_study_unbind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="服务解绑"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@+id/intentservce_study_bind"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

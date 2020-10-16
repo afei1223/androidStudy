@@ -22,10 +22,10 @@
                 android:text="roomDatabaseActivity" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/serviceActivity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="ServiceActivity" />
 
             <Button
                 android:id="@+id/button7"

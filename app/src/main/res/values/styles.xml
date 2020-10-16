@@ -7,4 +7,18 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <!-- Show a splash screen on the activity. Automatically removed when
+             Flutter draws its first frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <style name="Theme.Demo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+<!--        <item name="colorPrimary">@color/primary</item>-->
+<!--        <item name="colorPrimaryDark">@color/primaryDark</item>-->
+<!--        <item name="colorAccent">@color/accent</item>-->
+<!--        <item name="android:textColorPrimary">@color/primaryText</item>-->
+<!--        <item name="android:textColorSecondary">@color/secondaryText</item>-->
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
 </resources>
