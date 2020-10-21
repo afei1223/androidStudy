@@ -26,6 +26,8 @@
         <activity android:name=".ServiceStudy.ServiceActivity">
         </activity>
 
+        <activity android:name=".Wheel.WheelActivity"/>
+
     </application>
 
 </manifest>

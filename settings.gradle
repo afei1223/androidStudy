@@ -1,2 +1,3 @@
+include ':wheel'
 include ':app'
 rootProject.name = "androidStudy"

@@ -16,6 +16,11 @@
             android:layout_height="match_parent">
 
             <Button
+                android:id="@+id/wheelActivity"
+                android:text="wheelActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
                 android:id="@+id/databaseActivity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -13,6 +13,8 @@ import android.widget.ScrollView;
 import com.example.androidstudy.RoomDatabaseStudy.database.AppDatabase;
 import com.example.androidstudy.RoomDatabaseStudy.databaseActivity;
 import com.example.androidstudy.ServiceStudy.ServiceActivity;
+import com.example.androidstudy.Wheel.WheelActivity;
+import com.lb.wheel.FirstWheel;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -27,6 +29,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         button_databaseActivity.setOnClickListener(this);
         Button button_serviceActivity = findViewById(R.id.serviceActivity);
         button_serviceActivity.setOnClickListener(this);
+        Button button_wheelActivity = findViewById(R.id.wheelActivity);
+        button_wheelActivity.setOnClickListener(this);
 
     }
 
@@ -42,7 +46,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(MainActivity.this, ServiceActivity.class);
                 startActivity(intent);
                 break;
-
+            case R.id.wheelActivity:
+                intent = new Intent(MainActivity.this, WheelActivity.class);
+                startActivity(intent);
+                break;
         }
     }
 }
