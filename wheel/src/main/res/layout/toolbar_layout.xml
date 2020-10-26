@@ -16,7 +16,20 @@
         android:gravity="right|center"
         android:layout_marginRight="10dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/toolbar_button_left"
+            android:text=""
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/toolbar_button_right"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
 
     </LinearLayout>
 </merge>

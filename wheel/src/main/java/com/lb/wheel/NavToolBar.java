@@ -23,7 +23,10 @@ public class NavToolBar extends LinearLayout {
     public NavToolBar(final Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         this.context = context;
+
+        //设置布局
         LayoutInflater.from(context).inflate(R.layout.toolbar_layout,this,true);
+
         titleLable = findViewById(R.id.toolbar_title);
 
         //根据xml中的参数选择是否显示组件
@@ -44,10 +47,12 @@ public class NavToolBar extends LinearLayout {
         }
     }
 
+    //返回textview
     public TextView getTitleLable(){
         return titleLable;
     }
 
+    //添加按钮
     public Button addButton(int dp, String text){
         final Button button = new Button(context);
 
@@ -71,6 +76,7 @@ public class NavToolBar extends LinearLayout {
         return button;
     }
 
+    //删除按钮
     public void delButton(Button button){
         LinearLayout linearLayout = findViewById(R.id.lineraLayout_button_list);
         linearLayout.removeView(button);
