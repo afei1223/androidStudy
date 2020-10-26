@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToolbarLayout">
+        <attr name="titleLabel" format="string"/>
+        <attr name="haveLeftButton" format="boolean"/>
+        <attr name="haveRightButton" format="boolean"/>
+        <attr name="buttonLeftBackground" format="reference"/>
+        <attr name="buttonrightBackground" format="reference"/>
+    </declare-styleable>
+</resources>

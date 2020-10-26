@@ -1,0 +1,22 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:gravity="center_vertical"
+        android:text="标题"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/lineraLayout_button_list"
+        android:gravity="right|center"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+</merge>
