@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_wechat"
+        android:icon="@drawable/ic_wechat"
+        android:title="@string/title_wechat" />
+
+    <item
+        android:id="@+id/navigation_mailList"
+        android:icon="@drawable/ic_mail_list"
+        android:title="@string/title_mailList" />
+
+    <item
+        android:id="@+id/navigation_found"
+        android:icon="@drawable/ic_found"
+        android:title="@string/title_found" />
+
+    <item
+        android:id="@+id/navigation_me"
+        android:icon="@drawable/ic_me"
+        android:title="@string/title_me" />
+
+</menu>

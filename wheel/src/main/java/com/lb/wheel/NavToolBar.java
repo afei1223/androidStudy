@@ -29,9 +29,11 @@ public class NavToolBar extends LinearLayout {
 
         titleLable = findViewById(R.id.toolbar_title);
 
-        //根据xml中的参数选择是否显示组件
+        //根据xml中的参数选择如何显示组件
         TypedArray attributes = context.obtainStyledAttributes(attrs, R.styleable.ToolbarLayout);
         if(attributes != null){
+            String title = attributes.getString(R.styleable.ToolbarLayout_titleLabel);
+            titleLable.setText(title);
 //            boolean leftButtonVisible = attributes.getBoolean(R.styleable.ToolbarLayout_haveLeftButton, true);
 //            if (leftButtonVisible) {
 //                buttonLeft.setVisibility(View.VISIBLE);

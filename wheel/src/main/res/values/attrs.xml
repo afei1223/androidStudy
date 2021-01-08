@@ -2,9 +2,9 @@
 <resources>
     <declare-styleable name="ToolbarLayout">
         <attr name="titleLabel" format="string"/>
-        <attr name="haveLeftButton" format="boolean"/>
-        <attr name="haveRightButton" format="boolean"/>
-        <attr name="buttonLeftBackground" format="reference"/>
-        <attr name="buttonrightBackground" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="BottomNavView">
+        <attr name="menu" format="reference"/>
     </declare-styleable>
 </resources>

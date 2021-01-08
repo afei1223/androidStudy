@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_wechat"
+        android:icon="@drawable/ic_wechat"
+        android:title="@string/title_group_chat" />
+
+    <item
+        android:id="@+id/navigation_mailList"
+        android:icon="@drawable/ic_mail_list"
+        android:title="@string/title_add_friend" />
+
+    <item
+        android:id="@+id/navigation_found"
+        android:icon="@drawable/ic_found"
+        android:title="@string/title_barcode" />
+
+    <item
+        android:id="@+id/navigation_me"
+        android:icon="@drawable/ic_me"
+        android:title="@string/title_pay" />
+
+    <item
+        android:id="@+id/navigation_help"
+        android:icon="@drawable/ic_more"
+        android:title="@string/title_help"/>
+</menu>

@@ -33,22 +33,22 @@
                 android:text="ServiceActivity" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/PhoneCallStateActivity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="PhoneCallStateActivity" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/http_study"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="HttpStudy" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="璐璐！" />
 
             <Button
                 android:id="@+id/button10"
