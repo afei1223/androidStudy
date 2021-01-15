@@ -39,6 +39,9 @@
         <activity android:name=".Wheel.WheelActivity"/>
         <activity android:name=".HttpStudy.HttpActivity"/>
         <activity android:name=".WaitActivity"/>
+        <activity android:name=".lifecycle.LifecycleActivity"/>
+        <activity android:name=".ViewModel.ViewModelActivity"/>
+        <activity android:name=".DataStore.DataStoreActivity"/>
 
 <!--        <receiver android:name=".PhoneCallStateActivity.PhoneStateReceiver"-->
 <!--            android:enabled="true">-->

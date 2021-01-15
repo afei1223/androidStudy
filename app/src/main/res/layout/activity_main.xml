@@ -51,22 +51,22 @@
                 android:text="璐璐！" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/lifecycle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="Lifecycle" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/view_model"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="ViewModel" />
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/data_store"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="DataStore" />
 
             <Button
                 android:id="@+id/button13"
