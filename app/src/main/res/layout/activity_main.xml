@@ -69,10 +69,10 @@
                 android:text="DataStore" />
 
             <Button
-                android:id="@+id/button13"
+                android:id="@+id/tojson"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="toJson" />
 
             <Button
                 android:id="@+id/button14"

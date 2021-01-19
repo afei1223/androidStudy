@@ -42,6 +42,7 @@
         <activity android:name=".lifecycle.LifecycleActivity"/>
         <activity android:name=".ViewModel.ViewModelActivity"/>
         <activity android:name=".DataStore.DataStoreActivity"/>
+        <activity android:name=".ToJson.ToJsonActivity"/>
 
 <!--        <receiver android:name=".PhoneCallStateActivity.PhoneStateReceiver"-->
 <!--            android:enabled="true">-->
