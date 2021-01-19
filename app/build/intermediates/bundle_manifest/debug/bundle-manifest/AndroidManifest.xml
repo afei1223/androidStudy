@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidstudy1223"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <service android:name="com.example.androidstudy.ServiceStudy.StudyIntentService" />
+
+        <activity android:name="com.example.androidstudy.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.androidstudy.RoomDatabaseStudy.databaseActivity" >
+        </activity>
+        <activity android:name="com.example.androidstudy.ServiceStudy.ServiceActivity" >
+        </activity>
+        <activity android:name="com.example.androidstudy.Wheel.WheelActivity" />
+        <activity android:name="com.example.androidstudy.HttpStudy.HttpActivity" />
+        <activity android:name="com.example.androidstudy.WaitActivity" />
+        <activity android:name="com.example.androidstudy.lifecycle.LifecycleActivity" />
+        <activity android:name="com.example.androidstudy.ViewModel.ViewModelActivity" />
+        <activity android:name="com.example.androidstudy.DataStore.DataStoreActivity" />
+        <activity android:name="com.example.androidstudy.ToJson.ToJsonActivity" />
+
+        <!-- <receiver android:name=".PhoneCallStateActivity.PhoneStateReceiver" -->
+        <!-- android:enabled="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.NEW_OUTGOING_CALL" /> -->
+        <!-- <action android:name="android.intent.action.PHONE_STATE" /> -->
+        <!-- <action android:name="android.intent.action.PHONE_STATE2"/> -->
+        <!-- <action android:name="android.intent.action.PHONE_STATE2"/> -->
+        <!-- <action android:name="android.intent.action.PHONE_STATE_EXT"/> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.androidstudy1223.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

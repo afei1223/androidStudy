@@ -1,0 +1,13 @@
+R_DEF: Internal format may change without notice
+local
+attr? menu
+attr? titleLabel
+id bnv
+id lineraLayout_button_list
+id toolbar_button_left
+id toolbar_button_right
+id toolbar_title
+layout bottom_nav_view
+layout toolbar_layout
+styleable BottomNavView menu
+styleable ToolbarLayout titleLabel

@@ -1,0 +1,282 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
+MERGED from [me.jessyan:progressmanager:1.5.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/e349e50e39a7b0cc3a57399571d3a275/jetified-progressmanager-1.5.0/AndroidManifest.xml:2:1-11:12
+MERGED from [:wheel] /Users/libo/AndroidStudioProjects/androidStudy/wheel/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/bf96d2b5a86ecd602a621e7e96856420/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/libo/.gradle/caches/transforms-2/files-2.1/75baa063235eedb7ab2cc635bdb88d73/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/e19c379eb4c78fb74307236692b5e85b/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/6e57c04e98c372fcd8878b95a3d5645d/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/dc67d19a3e87ce6f1a24cc2a78720358/jetified-room-ktx-2.2.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-rxjava2:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/1653b92da6ba6bdbe82373ba7b4e7d67/room-rxjava2-2.2.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-guava:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/51a913e93cb656f4a213b338b360ccb9/room-guava-2.2.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/12c076570219bdc2a11e9d0df335391a/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/ee9b51f71825564f346013ea1d4d0318/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/4c1ade53cc4b20d7bc631ac17d3bfca4/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/ebc8011c39d26c440b76466a9b971345/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/d1ea25f3382273eed14315b543469208/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/18f5c1f0dcc08504bb6a1709d838cf6b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/2118a7099009bdd29f0289728ee82c0d/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/f52c60a67eb4c2183a64b296ae574169/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/32488318cfc756fa0f6ae91e625fa530/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/0878a65179abd6a1b5016c6981bce614/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/429fb715fcc7711d4ab133e350b6f531/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/7c0677be8011741026309ef690a9f4db/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/f9da1c5dce99d4a880107d6346aac466/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/098c479f6892902db16f6d5e04f3818b/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/881f6353a293f85beb3c21300a6a0eae/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/c0c6b03fdd3b2c24e2504f1adb930d44/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/e737982ea91fdf7ea321d344c75db0be/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/86f8c8e32c7613bbe5e86eb4377e9413/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/8cf26fd0d5f767ad6dfe1019ab25b952/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/libo/.gradle/caches/transforms-2/files-2.1/8621afa19e14921a3ef938f03b26befc/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/libo/.gradle/caches/transforms-2/files-2.1/4aa96ba9b4a1bad32c45f9fda0b213ac/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/67aa86ef8808cac41aa5afe6d271f3ea/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/7bcdab9edca68925f6bcb92ddd8a20de/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/d711f81259436f09ffdf0b48105165e3/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/87e4a5cb4839ebd5d033fa0ae6227780/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/bcf856ddfeb04b3b73ed182739910d39/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
+	package
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:4:5-39
+		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
+		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
+		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:6:5-91
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:6:22-72
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:7:5-97
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:8:97-159
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:8:114-156
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:11:5-12:47
+	tools:ignore
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:12:9-44
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:11:22-81
+application
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:14:5-58:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/libo/.gradle/caches/transforms-2/files-2.1/75baa063235eedb7ab2cc635bdb88d73/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/libo/.gradle/caches/transforms-2/files-2.1/75baa063235eedb7ab2cc635bdb88d73/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/e19c379eb4c78fb74307236692b5e85b/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/e19c379eb4c78fb74307236692b5e85b/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.core:core:1.3.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/429fb715fcc7711d4ab133e350b6f531/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/429fb715fcc7711d4ab133e350b6f531/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/67aa86ef8808cac41aa5afe6d271f3ea/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/67aa86ef8808cac41aa5afe6d271f3ea/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:15:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/429fb715fcc7711d4ab133e350b6f531/core-1.3.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:19:9-41
+	android:roundIcon
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:20:9-54
+	android:icon
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:18:9-43
+	android:allowBackup
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:22:9-40
+	android:networkSecurityConfig
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:16:9-69
+service#com.example.androidstudy.ServiceStudy.StudyIntentService
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:23:9-24:45
+	tools:ignore
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:24:13-42
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:23:18-65
+activity#com.example.androidstudy.MainActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:25:9-31:20
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:25:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:29:27-74
+activity#com.example.androidstudy.RoomDatabaseStudy.databaseActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:33:9-34:20
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:33:19-69
+activity#com.example.androidstudy.ServiceStudy.ServiceActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:36:9-37:20
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:36:19-63
+activity#com.example.androidstudy.Wheel.WheelActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:39:9-56
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:39:19-54
+activity#com.example.androidstudy.HttpStudy.HttpActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:40:9-59
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:40:19-57
+activity#com.example.androidstudy.WaitActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:41:9-49
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:41:19-47
+activity#com.example.androidstudy.lifecycle.LifecycleActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:42:9-64
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:42:19-62
+activity#com.example.androidstudy.ViewModel.ViewModelActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:43:9-64
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:43:19-62
+activity#com.example.androidstudy.DataStore.DataStoreActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:44:9-64
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:44:19-62
+activity#com.example.androidstudy.ToJson.ToJsonActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:45:9-58
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:45:19-56
+uses-sdk
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+MERGED from [me.jessyan:progressmanager:1.5.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/e349e50e39a7b0cc3a57399571d3a275/jetified-progressmanager-1.5.0/AndroidManifest.xml:7:5-9:41
+MERGED from [me.jessyan:progressmanager:1.5.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/e349e50e39a7b0cc3a57399571d3a275/jetified-progressmanager-1.5.0/AndroidManifest.xml:7:5-9:41
+MERGED from [:wheel] /Users/libo/AndroidStudioProjects/androidStudy/wheel/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:wheel] /Users/libo/AndroidStudioProjects/androidStudy/wheel/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/bf96d2b5a86ecd602a621e7e96856420/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/bf96d2b5a86ecd602a621e7e96856420/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/libo/.gradle/caches/transforms-2/files-2.1/75baa063235eedb7ab2cc635bdb88d73/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/libo/.gradle/caches/transforms-2/files-2.1/75baa063235eedb7ab2cc635bdb88d73/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/e19c379eb4c78fb74307236692b5e85b/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/e19c379eb4c78fb74307236692b5e85b/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/6e57c04e98c372fcd8878b95a3d5645d/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/6e57c04e98c372fcd8878b95a3d5645d/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/dc67d19a3e87ce6f1a24cc2a78720358/jetified-room-ktx-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/dc67d19a3e87ce6f1a24cc2a78720358/jetified-room-ktx-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-rxjava2:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/1653b92da6ba6bdbe82373ba7b4e7d67/room-rxjava2-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-rxjava2:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/1653b92da6ba6bdbe82373ba7b4e7d67/room-rxjava2-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-guava:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/51a913e93cb656f4a213b338b360ccb9/room-guava-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-guava:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/51a913e93cb656f4a213b338b360ccb9/room-guava-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/12c076570219bdc2a11e9d0df335391a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/12c076570219bdc2a11e9d0df335391a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/ee9b51f71825564f346013ea1d4d0318/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/ee9b51f71825564f346013ea1d4d0318/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/4c1ade53cc4b20d7bc631ac17d3bfca4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/4c1ade53cc4b20d7bc631ac17d3bfca4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/ebc8011c39d26c440b76466a9b971345/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/ebc8011c39d26c440b76466a9b971345/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/d1ea25f3382273eed14315b543469208/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/d1ea25f3382273eed14315b543469208/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/18f5c1f0dcc08504bb6a1709d838cf6b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/18f5c1f0dcc08504bb6a1709d838cf6b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/2118a7099009bdd29f0289728ee82c0d/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/2118a7099009bdd29f0289728ee82c0d/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/f52c60a67eb4c2183a64b296ae574169/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/f52c60a67eb4c2183a64b296ae574169/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/32488318cfc756fa0f6ae91e625fa530/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/32488318cfc756fa0f6ae91e625fa530/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/0878a65179abd6a1b5016c6981bce614/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/0878a65179abd6a1b5016c6981bce614/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/429fb715fcc7711d4ab133e350b6f531/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/429fb715fcc7711d4ab133e350b6f531/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/7c0677be8011741026309ef690a9f4db/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/7c0677be8011741026309ef690a9f4db/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/f9da1c5dce99d4a880107d6346aac466/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/f9da1c5dce99d4a880107d6346aac466/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/098c479f6892902db16f6d5e04f3818b/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/098c479f6892902db16f6d5e04f3818b/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/881f6353a293f85beb3c21300a6a0eae/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/881f6353a293f85beb3c21300a6a0eae/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/c0c6b03fdd3b2c24e2504f1adb930d44/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/c0c6b03fdd3b2c24e2504f1adb930d44/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/e737982ea91fdf7ea321d344c75db0be/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/e737982ea91fdf7ea321d344c75db0be/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/86f8c8e32c7613bbe5e86eb4377e9413/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/86f8c8e32c7613bbe5e86eb4377e9413/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/8cf26fd0d5f767ad6dfe1019ab25b952/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/8cf26fd0d5f767ad6dfe1019ab25b952/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/libo/.gradle/caches/transforms-2/files-2.1/8621afa19e14921a3ef938f03b26befc/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/libo/.gradle/caches/transforms-2/files-2.1/8621afa19e14921a3ef938f03b26befc/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/libo/.gradle/caches/transforms-2/files-2.1/4aa96ba9b4a1bad32c45f9fda0b213ac/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/libo/.gradle/caches/transforms-2/files-2.1/4aa96ba9b4a1bad32c45f9fda0b213ac/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/67aa86ef8808cac41aa5afe6d271f3ea/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/67aa86ef8808cac41aa5afe6d271f3ea/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/7bcdab9edca68925f6bcb92ddd8a20de/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/7bcdab9edca68925f6bcb92ddd8a20de/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/d711f81259436f09ffdf0b48105165e3/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/d711f81259436f09ffdf0b48105165e3/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/87e4a5cb4839ebd5d033fa0ae6227780/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/87e4a5cb4839ebd5d033fa0ae6227780/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/bcf856ddfeb04b3b73ed182739910d39/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/bcf856ddfeb04b3b73ed182739910d39/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79

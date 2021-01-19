@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomNavView">
+        <attr format="reference" name="menu"/>
+    </declare-styleable>
+    <declare-styleable name="ToolbarLayout">
+        <attr format="string" name="titleLabel"/>
+    </declare-styleable>
+</resources>
