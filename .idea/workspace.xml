@@ -11,6 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="54eb8e64-cc30-4804-a913-2ffae11fb8b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/androidstudy/ToJson/AHaveB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/androidstudy/ToJson/BHaveA.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,16 +338,6 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/androidstudy/ViewModel/MyViewModel.java</url>
           <line>49</line>
           <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/androidstudy/ToJson/ToJson.java</url>
-          <line>139</line>
-          <option name="timeStamp" value="93" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/androidstudy/ToJson/ToJson.java</url>
-          <line>111</line>
-          <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/androidstudy/ViewModel/MyViewModel.java</url>
