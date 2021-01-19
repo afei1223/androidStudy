@@ -1,5 +1,7 @@
 # ToJson
 
+[博客链接](https://www.cnblogs.com/afei123/p/14298321.html)
+
 ## 用法
 
 只需要将需要转为json的类继承ToJson即可，然后调用该类的toJson方法可以获得JsonObject对象
@@ -25,7 +27,7 @@ JSONObject jsonObject = testClassClazz.toJson();
 
 以上例子只是示范如何使用，可参见ToJsonActivity中的示例代码。
 
-将该文件导入即可。
+将ToJson文件导入并继承即可。
 
 
 
@@ -52,7 +54,7 @@ JSONObject jsonObject = testClassClazz.toJson();
 */
 ```
 
-自定义类也可以解析，如果该自定义类的包名不是java开头，会将内部参数一一分开存入JsonObject中。若是java开头，请自行实现toString方法，或更改源代码。（ps:源码中修改过一部分，这些类型是测过没有问题的）
+自定义类也可以解析，如果该自定义类的包名不是java开头，会将内部参数一一分开存入JsonObject中。若是java开头，请更改源代码。（ps:源码中修改过一部分，这些类型是测过没有问题的）
 
 ## 特性?bug!
 

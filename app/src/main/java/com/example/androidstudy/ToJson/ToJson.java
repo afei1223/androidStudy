@@ -1,9 +1,5 @@
 package com.example.androidstudy.ToJson;
 
-import android.util.Log;
-
-import com.example.androidstudy.StaticFun;
-
 import org.jetbrains.annotations.NotNull;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -113,7 +109,6 @@ public class ToJson{
      *
      * */
     private ObjectType switchType(String type) {
-        Log.i(StaticFun.TAG,type);
         switch (type){
             case "[Z": //boolean
                 return ObjectType.BOOLEAN;
@@ -145,7 +140,7 @@ public class ToJson{
                     return ObjectType.NOTLIST;
                 }else if(type.startsWith("[L")){
                     //继承了Object的数组
-                    if(type.startsWith("[Ljava"))
+                    if(type.startsWith("[Ljav.util"))
                         return ObjectType.OBJECT;
                     return ObjectType.NOTBASELIST;
                 }

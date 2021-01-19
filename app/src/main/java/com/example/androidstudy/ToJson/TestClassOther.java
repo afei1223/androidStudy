@@ -1,7 +1,5 @@
 package com.example.androidstudy.ToJson;
 
-import android.webkit.WebView;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
