@@ -90,10 +90,10 @@ public class ToJson{
                     jsonObject.put(field.getName(),"null");
                 }
             } catch (IllegalAccessException  e) {
-                e.printStackTrace();
-            }catch (JSONException e){
                 //当遇到私有变量时
 //                e.printStackTrace();
+            }catch (JSONException e){
+                e.printStackTrace();
             }
         }
         return jsonObject;
