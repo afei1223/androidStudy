@@ -58,6 +58,8 @@ public class ToJson{
         Field[] fields = o.getClass().getDeclaredFields();
         //遍历
         for(Field field : fields){
+//            //访问私有属性
+//            field.setAccessible(true);
             Object object = null;
             try {
                 //获取参数内容
@@ -91,7 +93,7 @@ public class ToJson{
                 }
             } catch (IllegalAccessException  e) {
                 //当遇到私有变量时
-//                e.printStackTrace();
+                e.printStackTrace();
             }catch (JSONException e){
                 e.printStackTrace();
             }

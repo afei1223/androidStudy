@@ -4,6 +4,8 @@
 
 ## 用法
 
+使用field2.setAccessible(true);可以访问私有变量，代码中已添加，不过注释掉了
+
 只需要将需要转为json的类继承ToJson即可，然后调用该类的toJson方法可以获得JsonObject对象
 
 ```java
@@ -60,8 +62,8 @@ JSONObject jsonObject = testClassClazz.toJson();
 
 不知道算不算特性，就先列出来
 
-1. 使用private修饰的参数无法获取到，可能对javabean类型的不是很友好。
-2. 当参数为空时，会存入字符串“null”
+1. 使用private修饰的参数无法获取到，可能对javabean类型的不是很友好。(已解决，见用法）
+2. 当参数为空时，会存入字符串“null”（可以自行设置不显示或其他内容）
 
 ## end
 

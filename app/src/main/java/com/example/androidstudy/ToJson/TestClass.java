@@ -3,11 +3,11 @@ package com.example.androidstudy.ToJson;
 import org.json.JSONObject;
 
 public class TestClass extends ToJson {
-    int[] ints;
-    String[] strings;
-    String string;
-    Boolean aBoolean;
-    Integer integer;
+    private int[] ints;
+    private String[] strings;
+    private String string;
+    private Boolean aBoolean;
+    private Integer integer;
     Double aDouble;
     Long aLong;
     Byte aByte;
