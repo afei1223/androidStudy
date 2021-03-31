@@ -74,4 +74,9 @@ public class WaitActivity extends Activity {
             super.handleMessage(msg);
         }
     };
+
+
+    private void test(){
+
+    }
 }

@@ -9,13 +9,31 @@
         android:minSdkVersion="19"
         android:targetSdkVersion="30" />
 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <permission android:name="android.permission.OVERRIDE_WIFI_CONFIG" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- 网络状态改变的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!-- 6.0以上打开蓝牙和wifi最好加上定位权限，获取wifi列表要用 -->
+    <!-- 获取IP地址 -->
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
-    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.Manifest.permission.NETWORK_STACK" />
+    <uses-permission android:name="android.Manifest.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.Manifest.permission.OVERRIDE_WIFI_CONFIG" />
+    <uses-permission android:name="android.Manifest.permission.NETWORK_CARRIER_PROVISIONING" />
+    <uses-permission android:name="android.Manifest.permission.READ_WIFI_CREDENTIAL" />
+    <uses-permission android:name="android.Manifest.permission.NETWORK_SETUP_WIZARD" />
+    <uses-permission android:name="android.Manifest.permission.NETWORK_SETTINGS" />
 
     <application
         android:allowBackup="true"
@@ -27,7 +45,6 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <service android:name="com.example.androidstudy.ServiceStudy.StudyIntentService" />
 
@@ -49,6 +66,12 @@
         <activity android:name="com.example.androidstudy.ViewModel.ViewModelActivity" />
         <activity android:name="com.example.androidstudy.DataStore.DataStoreActivity" />
         <activity android:name="com.example.androidstudy.ToJson.ToJsonActivity" />
+        <activity android:name="com.example.androidstudy.functionqueue.FuncationQueueActivity" />
+        <activity android:name="com.example.androidstudy.DingWifi.DingWifiActivity" />
+        <activity android:name="com.example.androidstudy.Test.TestActivity" />
+        <activity android:name="com.example.androidstudy.databinding.DataBindingActivity" />
+        <activity android:name="com.example.androidstudy.sensor.SensorActivity" />
+        <activity android:name="com.example.androidstudy.BottomDrawerLayout.BottomDrawerActivity" />
 
         <!-- <receiver android:name=".PhoneCallStateActivity.PhoneStateReceiver" -->
         <!-- android:enabled="true"> -->

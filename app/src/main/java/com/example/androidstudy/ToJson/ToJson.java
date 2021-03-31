@@ -8,6 +8,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 添加混淆规则
+ * -keep class com.example.androidstudy.ToJson.ToJson{*;}
+ * -keep  class * extends com.example.androidstudy.ToJson.ToJson{
+ *     *;
+ * }
+ * -keepnames class * extends com.example.androidstudy.ToJson.ToJson{
+ *    *;
+ * }
+ * */
+/**
  * 支持转码的类型
  * int Integer
  * boolean Boolean

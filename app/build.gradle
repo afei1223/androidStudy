@@ -14,12 +14,31 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        releaseConfig {
+            //签名文件的路径
+            storeFile file('***\\platform.keystore')
+            storePassword 'android'
+            keyAlias = 'platform'
+            keyPassword 'android'
+        }
+        debugConfig {
+            //签名文件的路径
+            storeFile file('***\\platform.keystore')
+            storePassword 'android'
+            keyAlias = 'platform'
+            keyPassword 'android'
+        }
+    }
+
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+
 }
 
 dependencies {

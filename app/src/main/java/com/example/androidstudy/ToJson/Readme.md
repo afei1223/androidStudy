@@ -64,6 +64,7 @@ JSONObject jsonObject = testClassClazz.toJson();
 
 1. 使用private修饰的参数无法获取到，可能对javabean类型的不是很友好。(已解决，见用法）
 2. 当参数为空时，会存入字符串“null”（可以自行设置不显示或其他内容）
+3. 需要添加混淆规则
 
 ## end
 

@@ -5,19 +5,25 @@ import androidx.lifecycle.Lifecycle;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ScrollView;
 
+import com.example.androidstudy.BottomDrawerLayout.BottomDrawerActivity;
 import com.example.androidstudy.DataStore.DataStoreActivity;
+import com.example.androidstudy.DingWifi.DingWifiActivity;
 import com.example.androidstudy.HttpStudy.HttpActivity;
 import com.example.androidstudy.RoomDatabaseStudy.databaseActivity;
 import com.example.androidstudy.ServiceStudy.ServiceActivity;
-import com.example.androidstudy.ToJson.ToJson;
+import com.example.androidstudy.Test.TestActivity;
 import com.example.androidstudy.ToJson.ToJsonActivity;
 import com.example.androidstudy.ViewModel.ViewModelActivity;
 import com.example.androidstudy.Wheel.WheelActivity;
 import com.example.androidstudy.lifecycle.LifecycleActivity;
+import com.example.androidstudy.sensor.SensorActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,6 +34,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //禁止截图
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
         setContentView(R.layout.activity_main);
         ScrollView scrollView = findViewById(R.id.main_scrollView);
         scrollView.setVerticalScrollBarEnabled(false);
@@ -49,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         StaticFun.buttonRegister(buttons, this, this);
         StaticFun.buttonRegister(R.id.button9,this,this);
 
-        startActivity(startAct(ToJsonActivity.class));
+        startActivity(startAct(BottomDrawerActivity.class));
     }
 
     @Override

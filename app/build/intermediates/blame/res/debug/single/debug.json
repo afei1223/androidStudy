@@ -24,6 +24,10 @@
         "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/anim_view_out_anim.xml.flat",
+        "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/res/anim/view_out_anim.xml"
+    },
+    {
         "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
@@ -50,6 +54,10 @@
     {
         "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/layout_activity_databinding.xml.flat",
+        "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/res/layout/activity_databinding.xml"
     },
     {
         "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/menu_top_nav_menu.xml.flat",
@@ -84,6 +92,10 @@
         "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_mail_list.png"
     },
     {
+        "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/anim_view_in_anim.xml.flat",
+        "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/res/anim/view_in_anim.xml"
+    },
+    {
         "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_found.png.flat",
         "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_found.png"
     },
@@ -108,6 +120,10 @@
         "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/generated/res/pngs/debug/drawable-ldpi/ic_mail_list.png"
     },
     {
+        "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/layout_activity_test.xml.flat",
+        "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/res/layout/activity_test.xml"
+    },
+    {
         "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_me.png.flat",
         "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/generated/res/pngs/debug/drawable-ldpi/ic_me.png"
     },
@@ -130,6 +146,10 @@
     {
         "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_wechat.png.flat",
         "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/generated/res/pngs/debug/drawable-ldpi/ic_wechat.png"
+    },
+    {
+        "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/layout_activity_ding_wifi.xml.flat",
+        "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/res/layout/activity_ding_wifi.xml"
     },
     {
         "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_me.png.flat",
@@ -204,12 +224,12 @@
         "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_mail_list.png"
     },
     {
-        "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/layout_activity_wheel.xml.flat",
-        "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/res/layout/activity_wheel.xml"
-    },
-    {
         "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_wechat.png.flat",
         "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_wechat.png"
+    },
+    {
+        "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/layout_activity_wheel.xml.flat",
+        "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/res/layout/activity_wheel.xml"
     },
     {
         "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_me.png.flat",
@@ -282,5 +302,9 @@
     {
         "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/menu_bottom_nav_menu.xml.flat",
         "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/res/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/Users/libo/AndroidStudioProjects/androidStudy/app/build/intermediates/res/merged/debug/layout_activity_bottom_drawer.xml.flat",
+        "source": "/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/res/layout/activity_bottom_drawer.xml"
     }
 ]

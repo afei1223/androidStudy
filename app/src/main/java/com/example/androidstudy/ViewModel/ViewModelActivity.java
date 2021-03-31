@@ -9,14 +9,10 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Lifecycle;
-import androidx.lifecycle.LifecycleObserver;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.LifecycleRegistry;
 import androidx.lifecycle.Observer;
-import androidx.lifecycle.OnLifecycleEvent;
-import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.lifecycle.ViewModelStore;
@@ -28,14 +24,29 @@ import com.example.androidstudy.StaticFun;
 import java.util.List;
 
 /**
+ * ***前期遇到的坑***
+ *
+ * ViewModelProviders.of(FragmentActivity)
+ * 因为fragmentActvity是Activity的子类，所以这种方式在Activity中是无法使用的
+ *
+ * getViewModelStore()
+ * 看名字看像是用来储存viewmodel的地方，不生成ViewModelStore对象的话，ViewModel就无法正常使用
+ *
+ * onRetainNonConfigurationInstance
+ * 这个是用来储存ViewModelStore的地方，官方文档只说了ViewModel可以在旋转屏幕的时候保存数据，
+ * 可是实际操作发现并非如此，是因为在这里保存了ViewModelStroe，viewmodel也在其中。
+ * 实现原理和onRetainNonConfigurationInstance该方法的属性有关
+ *
+ *
  * {@link androidx.appcompat.app.AppCompatActivity}
  * */
-public class ViewModelActivity extends AppCompatActivity
+public class ViewModelActivity extends Activity
         implements
-        LifecycleOwner, ViewModelStoreOwner,
+        LifecycleOwner,
+        ViewModelStoreOwner,
         View.OnClickListener {
     private Lifecycle lifecycle ;
-    private ViewModelStore viewModelStore ;
+    private ViewModelStore mViewModelStore ;
     private MyViewModel model;
 
     private TextView textView;
@@ -97,12 +108,61 @@ public class ViewModelActivity extends AppCompatActivity
 
     }
 
+    @Override
+    @Nullable
+    public final Object onRetainNonConfigurationInstance() {
+
+        ViewModelStore viewModelStore = mViewModelStore;
+        if (viewModelStore == null) {
+            // No one called getViewModelStore(), so see if there was an existing
+            // ViewModelStore from our last NonConfigurationInstance
+            NonConfigurationInstances nc =
+                    (NonConfigurationInstances) getLastNonConfigurationInstance();
+            if (nc != null) {
+                viewModelStore = nc.viewModelStore;
+            }
+        }
+
+        if (viewModelStore == null ) {
+            return null;
+        }
+
+        NonConfigurationInstances nci = new NonConfigurationInstances();
+        nci.viewModelStore = viewModelStore;
+        return nci;
+    }
+
+    /**
+     * 获取ViewModelStore
+     *
+     * 实际上就是在activity旋转的时候存储这个内容，viewmodel在其中
+     * */
     @NonNull
     @Override
     public ViewModelStore getViewModelStore() {
-        if(viewModelStore == null)
-            viewModelStore = new ViewModelStore();
-        return viewModelStore;
+//        if(viewModelStore == null)
+//            viewModelStore = new ViewModelStore();
+//        return viewModelStore;
+        if (getApplication() == null) {
+            throw new IllegalStateException("Your activity is not yet attached to the "
+                    + "Application instance. You can't request ViewModel before onCreate call.");
+        }
+        if (mViewModelStore == null) {
+            NonConfigurationInstances nc =
+                    (NonConfigurationInstances) getLastNonConfigurationInstance();
+            if (nc != null) {
+                // Restore the ViewModelStore from NonConfigurationInstances
+                mViewModelStore = nc.viewModelStore;
+            }
+            if (mViewModelStore == null) {
+                mViewModelStore = new ViewModelStore();
+            }
+        }
+        return mViewModelStore;
+    }
+
+    static final class NonConfigurationInstances {
+        ViewModelStore viewModelStore;
     }
 
     @NonNull

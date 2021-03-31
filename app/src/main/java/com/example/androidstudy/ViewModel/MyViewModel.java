@@ -26,7 +26,7 @@ public class MyViewModel extends ViewModel {
     public LiveData<Integer> getFlag() {
         if(flag == null){
             flag = new MutableLiveData<>();
-            flag.setValue(0);
+            flag.setValue(1);
         }
         return flag;
     }

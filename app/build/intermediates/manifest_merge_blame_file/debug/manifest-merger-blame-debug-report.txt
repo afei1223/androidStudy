@@ -10,128 +10,187 @@
 9        android:targetSdkVersion="30" />
 9-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-11-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:6:5-91
-11-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:6:22-72
-12    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
-12-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:7:5-97
-12-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:7:22-78
-13    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
-13-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:7:5-97
-13-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:7:22-78
-14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:8:97-159
-14-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:8:114-156
-15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:9:5-79
-15-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:9:22-77
-16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:10:5-80
-16-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:10:22-78
-17    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
-17-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:11:5-12:47
-17-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:11:22-81
-18
-19    <application
-19-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:14:5-58:19
-20        android:allowBackup="true"
-20-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:17:9-35
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.3.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/429fb715fcc7711d4ab133e350b6f531/core-1.3.0/AndroidManifest.xml:24:18-86
-22        android:debuggable="true"
-23        android:icon="@mipmap/ic_launcher"
-23-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:18:9-43
-24        android:label="@string/app_name"
-24-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:19:9-41
-25        android:networkSecurityConfig="@xml/network_security_config"
-25-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:16:9-69
-26        android:requestLegacyExternalStorage="true"
-26-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:15:9-52
-27        android:roundIcon="@mipmap/ic_launcher_round"
-27-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:20:9-54
-28        android:supportsRtl="true"
-28-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:21:9-35
-29        android:testOnly="true"
-30        android:theme="@style/AppTheme" >
-30-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:22:9-40
-31        <service android:name="com.example.androidstudy.ServiceStudy.StudyIntentService" />
-31-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:23:9-24:45
-31-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:23:18-65
-32
-33        <activity android:name="com.example.androidstudy.MainActivity" >
-33-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:25:9-31:20
-33-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:25:19-47
-34            <intent-filter>
-34-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:26:13-30:29
-35                <action android:name="android.intent.action.MAIN" />
-35-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:27:17-69
-35-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:27:25-66
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:5:5-76
+11-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:5:22-73
+12    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+12-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:6:5-76
+12-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:6:22-73
+13
+14    <permission android:name="android.permission.OVERRIDE_WIFI_CONFIG" />
+14-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:8:5-74
+14-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:8:17-71
+15
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:10:5-78
+16-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:10:22-76
+17
+18    <!-- 网络状态改变的权限 -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:13:5-79
+19-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+20-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:14:5-79
+20-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:14:22-76
+21    <!-- 6.0以上打开蓝牙和wifi最好加上定位权限，获取wifi列表要用 -->
+22    <!-- 获取IP地址 -->
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:17:5-66
+23-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:17:22-64
+24    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+24-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:18:5-91
+24-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:18:22-72
+25    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+25-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:19:5-97
+25-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:19:22-78
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:20:5-79
+26-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:20:22-77
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:21:5-80
+27-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:21:22-78
+28    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+28-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:22:5-23:47
+28-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:22:22-81
+29    <uses-permission android:name="android.Manifest.permission.NETWORK_STACK" />
+29-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:24:5-80
+29-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:24:22-78
+30    <uses-permission android:name="android.Manifest.permission.CHANGE_WIFI_STATE" />
+30-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:25:5-26:47
+30-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:25:22-82
+31    <uses-permission android:name="android.Manifest.permission.OVERRIDE_WIFI_CONFIG" />
+31-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:27:5-87
+31-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:27:22-85
+32    <uses-permission android:name="android.Manifest.permission.NETWORK_CARRIER_PROVISIONING" />
+32-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:28:5-95
+32-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:28:22-93
+33    <uses-permission android:name="android.Manifest.permission.READ_WIFI_CREDENTIAL" />
+33-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:29:5-87
+33-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:29:22-85
+34    <uses-permission android:name="android.Manifest.permission.NETWORK_SETUP_WIZARD" />
+34-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:30:5-87
+34-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:30:22-85
+35    <uses-permission android:name="android.Manifest.permission.NETWORK_SETTINGS" />
+35-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:31:5-83
+35-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:31:22-81
 36
-37                <category android:name="android.intent.category.LAUNCHER" />
-37-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:29:17-77
-37-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:29:27-74
-38            </intent-filter>
-39        </activity>
-40        <activity android:name="com.example.androidstudy.RoomDatabaseStudy.databaseActivity" >
-40-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:33:9-34:20
-40-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:33:19-69
-41        </activity>
-42        <activity android:name="com.example.androidstudy.ServiceStudy.ServiceActivity" >
-42-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:36:9-37:20
-42-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:36:19-63
-43        </activity>
-44        <activity android:name="com.example.androidstudy.Wheel.WheelActivity" />
-44-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:39:9-56
-44-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:39:19-54
-45        <activity android:name="com.example.androidstudy.HttpStudy.HttpActivity" />
-45-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:40:9-59
-45-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:40:19-57
-46        <activity android:name="com.example.androidstudy.WaitActivity" />
-46-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:41:9-49
-46-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:41:19-47
-47        <activity android:name="com.example.androidstudy.lifecycle.LifecycleActivity" />
-47-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:42:9-64
-47-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:42:19-62
-48        <activity android:name="com.example.androidstudy.ViewModel.ViewModelActivity" />
-48-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:43:9-64
-48-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:43:19-62
-49        <activity android:name="com.example.androidstudy.DataStore.DataStoreActivity" />
-49-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:44:9-64
-49-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:44:19-62
-50        <activity android:name="com.example.androidstudy.ToJson.ToJsonActivity" />
-50-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:45:9-58
-50-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:45:19-56
-51
-52        <!-- <receiver android:name=".PhoneCallStateActivity.PhoneStateReceiver" -->
-53        <!-- android:enabled="true"> -->
-54        <!-- <intent-filter> -->
-55        <!-- <action android:name="android.intent.action.NEW_OUTGOING_CALL" /> -->
-56        <!-- <action android:name="android.intent.action.PHONE_STATE" /> -->
-57        <!-- <action android:name="android.intent.action.PHONE_STATE2"/> -->
-58        <!-- <action android:name="android.intent.action.PHONE_STATE2"/> -->
-59        <!-- <action android:name="android.intent.action.PHONE_STATE_EXT"/> -->
-60        <!-- </intent-filter> -->
-61        <!-- </receiver> -->
-62
-63        <service
-63-->[androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
-64            android:name="androidx.room.MultiInstanceInvalidationService"
-64-->[androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
-65            android:directBootAware="true"
-65-->[androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
-66            android:exported="false" />
-66-->[androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
-67
-68        <provider
-68-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
-69            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-69-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
-70            android:authorities="com.example.androidstudy1223.lifecycle-process"
-70-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
-71            android:exported="false"
-71-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
-72            android:multiprocess="true" />
-72-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
-73    </application>
+37    <application
+37-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:33:5-83:19
+38        android:allowBackup="true"
+38-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:36:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.3.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/429fb715fcc7711d4ab133e350b6f531/core-1.3.0/AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:37:9-43
+42        android:label="@string/app_name"
+42-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:38:9-41
+43        android:networkSecurityConfig="@xml/network_security_config"
+43-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:35:9-69
+44        android:requestLegacyExternalStorage="true"
+44-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:34:9-52
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:39:9-54
+46        android:supportsRtl="true"
+46-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:40:9-35
+47        android:theme="@style/AppTheme" >
+47-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:41:9-40
+48        <service android:name="com.example.androidstudy.ServiceStudy.StudyIntentService" />
+48-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:42:9-43:45
+48-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:42:18-65
+49
+50        <activity android:name="com.example.androidstudy.MainActivity" >
+50-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:44:9-50:20
+50-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:44:19-47
+51            <intent-filter>
+51-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:45:13-49:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:46:17-69
+52-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:46:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:48:17-77
+54-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:48:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity android:name="com.example.androidstudy.RoomDatabaseStudy.databaseActivity" >
+57-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:52:9-53:20
+57-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:52:19-69
+58        </activity>
+59        <activity android:name="com.example.androidstudy.ServiceStudy.ServiceActivity" >
+59-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:55:9-56:20
+59-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:55:19-63
+60        </activity>
+61        <activity android:name="com.example.androidstudy.Wheel.WheelActivity" />
+61-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:58:9-56
+61-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:58:19-54
+62        <activity android:name="com.example.androidstudy.HttpStudy.HttpActivity" />
+62-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:59:9-59
+62-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:59:19-57
+63        <activity android:name="com.example.androidstudy.WaitActivity" />
+63-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:60:9-49
+63-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:60:19-47
+64        <activity android:name="com.example.androidstudy.lifecycle.LifecycleActivity" />
+64-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:61:9-64
+64-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:61:19-62
+65        <activity android:name="com.example.androidstudy.ViewModel.ViewModelActivity" />
+65-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:62:9-64
+65-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:62:19-62
+66        <activity android:name="com.example.androidstudy.DataStore.DataStoreActivity" />
+66-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:63:9-64
+66-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:63:19-62
+67        <activity android:name="com.example.androidstudy.ToJson.ToJsonActivity" />
+67-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:64:9-58
+67-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:64:19-56
+68        <activity android:name="com.example.androidstudy.functionqueue.FuncationQueueActivity" />
+68-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:65:9-73
+68-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:65:19-71
+69        <activity android:name="com.example.androidstudy.DingWifi.DingWifiActivity" />
+69-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:66:9-62
+69-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:66:19-60
+70        <activity android:name="com.example.androidstudy.Test.TestActivity" />
+70-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:67:9-54
+70-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:67:19-52
+71        <activity android:name="com.example.androidstudy.databinding.DataBindingActivity" />
+71-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:68:9-68
+71-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:68:19-66
+72        <activity android:name="com.example.androidstudy.sensor.SensorActivity" />
+72-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:69:9-58
+72-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:69:19-56
+73        <activity android:name="com.example.androidstudy.BottomDrawerLayout.BottomDrawerActivity" />
+73-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:70:9-76
+73-->/Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:70:19-74
 74
-75</manifest>
+75        <!-- <receiver android:name=".PhoneCallStateActivity.PhoneStateReceiver" -->
+76        <!-- android:enabled="true"> -->
+77        <!-- <intent-filter> -->
+78        <!-- <action android:name="android.intent.action.NEW_OUTGOING_CALL" /> -->
+79        <!-- <action android:name="android.intent.action.PHONE_STATE" /> -->
+80        <!-- <action android:name="android.intent.action.PHONE_STATE2"/> -->
+81        <!-- <action android:name="android.intent.action.PHONE_STATE2"/> -->
+82        <!-- <action android:name="android.intent.action.PHONE_STATE_EXT"/> -->
+83        <!-- </intent-filter> -->
+84        <!-- </receiver> -->
+85
+86        <service
+86-->[androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+87            android:name="androidx.room.MultiInstanceInvalidationService"
+87-->[androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+88            android:directBootAware="true"
+88-->[androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+89            android:exported="false" />
+89-->[androidx.room:room-runtime:2.2.5] /Users/libo/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+90
+91        <provider
+91-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+92            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+93            android:authorities="com.example.androidstudy1223.lifecycle-process"
+93-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+94            android:exported="false"
+94-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+95            android:multiprocess="true" />
+95-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/894873d045a0a220e7c24d43283db9eb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+96    </application>
+97
+98</manifest>

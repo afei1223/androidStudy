@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
-INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
-INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
-INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-85:12
 MERGED from [me.jessyan:progressmanager:1.5.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/e349e50e39a7b0cc3a57399571d3a275/jetified-progressmanager-1.5.0/AndroidManifest.xml:2:1-11:12
 MERGED from [:wheel] /Users/libo/AndroidStudioProjects/androidStudy/wheel/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/bf96d2b5a86ecd602a621e7e96856420/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
@@ -41,53 +41,107 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/libo/.gradle/cache
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/d711f81259436f09ffdf0b48105165e3/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/87e4a5cb4839ebd5d033fa0ae6227780/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/bcf856ddfeb04b3b73ed182739910d39/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
-INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
-INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-85:12
+INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-85:12
 	package
 		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:4:5-39
 		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-85:12
 		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-60:12
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:1-85:12
 		INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:2:11-69
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:6:5-91
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:5:5-76
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:6:22-72
-uses-permission#android.permission.PROCESS_OUTGOING_CALLS
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:7:5-97
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:5:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:6:5-76
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:6:22-73
+permission#android.permission.OVERRIDE_WIFI_CONFIG
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:8:5-74
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:8:17-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:10:5-78
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:14:22-76
 uses-permission#android.permission.INTERNET
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:8:97-159
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:17:5-66
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:8:114-156
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:17:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:18:5-91
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:18:22-72
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:19:5-97
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:19:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:9:5-79
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:9:22-77
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:20:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:10:5-80
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:21:5-80
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:10:22-78
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:21:22-78
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:11:5-12:47
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:22:5-23:47
 	tools:ignore
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:12:9-44
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:23:9-44
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:11:22-81
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:22:22-81
+uses-permission#android.Manifest.permission.NETWORK_STACK
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:24:22-78
+uses-permission#android.Manifest.permission.CHANGE_WIFI_STATE
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:25:5-26:47
+	tools:ignore
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:25:22-82
+uses-permission#android.Manifest.permission.OVERRIDE_WIFI_CONFIG
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:27:5-87
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:27:22-85
+uses-permission#android.Manifest.permission.NETWORK_CARRIER_PROVISIONING
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:28:5-95
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:28:22-93
+uses-permission#android.Manifest.permission.READ_WIFI_CREDENTIAL
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:29:5-87
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:29:22-85
+uses-permission#android.Manifest.permission.NETWORK_SETUP_WIZARD
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:30:5-87
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:30:22-85
+uses-permission#android.Manifest.permission.NETWORK_SETTINGS
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:31:5-83
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:31:22-81
 application
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:14:5-58:19
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:33:5-83:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/libo/.gradle/caches/transforms-2/files-2.1/75baa063235eedb7ab2cc635bdb88d73/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/libo/.gradle/caches/transforms-2/files-2.1/75baa063235eedb7ab2cc635bdb88d73/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/e19c379eb4c78fb74307236692b5e85b/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
@@ -101,79 +155,103 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/libo/.gradle/cac
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/67aa86ef8808cac41aa5afe6d271f3ea/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/67aa86ef8808cac41aa5afe6d271f3ea/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:requestLegacyExternalStorage
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:15:9-52
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:34:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0] /Users/libo/.gradle/caches/transforms-2/files-2.1/429fb715fcc7711d4ab133e350b6f531/core-1.3.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:21:9-35
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:40:9-35
 	android:label
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:19:9-41
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:38:9-41
 	android:roundIcon
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:20:9-54
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:39:9-54
 	android:icon
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:18:9-43
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:37:9-43
 	android:allowBackup
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:17:9-35
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:36:9-35
 	android:theme
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:22:9-40
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:41:9-40
 	android:networkSecurityConfig
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:16:9-69
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:35:9-69
 service#com.example.androidstudy.ServiceStudy.StudyIntentService
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:23:9-24:45
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:42:9-43:45
 	tools:ignore
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:24:13-42
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:43:13-42
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:23:18-65
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:42:18-65
 activity#com.example.androidstudy.MainActivity
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:25:9-31:20
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:44:9-50:20
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:25:19-47
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:44:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:26:13-30:29
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:45:13-49:29
 action#android.intent.action.MAIN
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:27:17-69
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:46:17-69
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:27:25-66
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:46:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:29:17-77
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:48:17-77
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:29:27-74
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:48:27-74
 activity#com.example.androidstudy.RoomDatabaseStudy.databaseActivity
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:33:9-34:20
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:52:9-53:20
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:33:19-69
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:52:19-69
 activity#com.example.androidstudy.ServiceStudy.ServiceActivity
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:36:9-37:20
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:55:9-56:20
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:36:19-63
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:55:19-63
 activity#com.example.androidstudy.Wheel.WheelActivity
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:39:9-56
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:58:9-56
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:39:19-54
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:58:19-54
 activity#com.example.androidstudy.HttpStudy.HttpActivity
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:40:9-59
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:59:9-59
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:40:19-57
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:59:19-57
 activity#com.example.androidstudy.WaitActivity
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:41:9-49
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:60:9-49
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:41:19-47
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:60:19-47
 activity#com.example.androidstudy.lifecycle.LifecycleActivity
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:42:9-64
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:61:9-64
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:42:19-62
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:61:19-62
 activity#com.example.androidstudy.ViewModel.ViewModelActivity
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:43:9-64
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:62:9-64
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:43:19-62
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:62:19-62
 activity#com.example.androidstudy.DataStore.DataStoreActivity
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:44:9-64
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:63:9-64
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:44:19-62
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:63:19-62
 activity#com.example.androidstudy.ToJson.ToJsonActivity
-ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:45:9-58
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:64:9-58
 	android:name
-		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:45:19-56
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:64:19-56
+activity#com.example.androidstudy.functionqueue.FuncationQueueActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:65:9-73
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:65:19-71
+activity#com.example.androidstudy.DingWifi.DingWifiActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:66:9-62
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:66:19-60
+activity#com.example.androidstudy.Test.TestActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:67:9-54
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:67:19-52
+activity#com.example.androidstudy.databinding.DataBindingActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:68:9-68
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:68:19-66
+activity#com.example.androidstudy.sensor.SensorActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:69:9-58
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:69:19-56
+activity#com.example.androidstudy.BottomDrawerLayout.BottomDrawerActivity
+ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:70:9-76
+	android:name
+		ADDED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml:70:19-74
 uses-sdk
 INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/libo/AndroidStudioProjects/androidStudy/app/src/main/AndroidManifest.xml

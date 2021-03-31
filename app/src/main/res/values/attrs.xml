@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomDrawerLayout">
+        <attr name="appearHeight" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="GridModeLayout">
+        <attr name="childNums" format="integer"/>
+        <attr name="topHeight" format="dimension"/>
+    </declare-styleable>
+
+</resources>
