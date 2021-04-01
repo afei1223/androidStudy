@@ -14,7 +14,7 @@ import android.widget.TextView;
 import java.util.List;
 
 public class StaticFun {
-    public static final String TAG = "lbtest";
+    public static final String TAG = "lbtest1";
 
     public static Button buttonRegister(int i, View.OnClickListener onClickListener, Activity activity){
         Button button = activity.findViewById(i);
